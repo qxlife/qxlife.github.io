@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/blog/test/"/>
+      <url>/blog/test/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> trip </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>云游小池</title>
       <link href="/blog/make-a-tour-at-IE/"/>
       <url>/blog/make-a-tour-at-IE/</url>
