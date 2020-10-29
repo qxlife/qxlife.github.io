@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-22T07:10:10.975Z</updated>
+  <updated>2020-10-29T03:32:50.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>春城印象</title>
+    <link href="http://yoursite.com/blog/spring-city/"/>
+    <id>http://yoursite.com/blog/spring-city/</id>
+    <published>2020-10-27T16:00:00.000Z</published>
+    <updated>2020-10-29T03:32:50.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;在去昆明之前</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;在去昆明之前&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>旅途二三事</title>
