@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>浅香里</title>
+  <title>英刚博客</title>
   
-  
+  <subtitle>半点留香</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-02-14T07:06:02.867Z</updated>
+  <updated>2021-04-08T03:16:28.092Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,17 @@
     <link href="http://yoursite.com/blog/chun-hua-qiu-yue/"/>
     <id>http://yoursite.com/blog/chun-hua-qiu-yue/</id>
     <published>2021-02-13T16:00:00.000Z</published>
-    <updated>2021-02-14T07:06:02.867Z</updated>
+    <updated>2021-04-08T03:16:28.092Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;春节不知不觉过去了几天，慢慢的走向了尾升，这个假期基本是是在迷糊中度过，也补足了前段时间欠的觉，当然现在睡的天昏地暗，脑子越发不灵光了。</p><p>&emsp;&emsp;读完7天书，读完1本专业书籍，读完两本标准，读完</p><p>&emsp;&emsp;走路时挺直腰背，久坐时多活动，每周两次的5km跑步。</p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;春节不知不觉过去了几天。这个假期基本是在迷糊中度过，算是补足了前段时间欠的觉，当然现在睡的天昏地暗，脑子越发不灵光了。</p><p>&emsp;&emsp;新年计划：读完7本散书，读完1本专业书籍，读完2本标准。</p><p>&emsp;&emsp;有时间的话，准备试水二建，再记几个英语单词。</p><p>&emsp;&emsp;另外，走路时挺直腰背，久坐时多活动，每周两次的5km跑步。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&amp;emsp;&amp;emsp;春节不知不觉过去了几天，慢慢的走向了尾升，这个假期基本是是在迷糊中度过，也补足了前段时间欠的觉，当然现在睡的天昏地暗，脑子越发不灵光了。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;读完7天书，读完1本专业书籍，读完两本标准，读完&lt;/p&gt;
-&lt;p&gt;&amp;emsp
+        &lt;p&gt;&amp;emsp;&amp;emsp;春节不知不觉过去了几天。这个假期基本是在迷糊中度过，算是补足了前段时间欠的觉，当然现在睡的天昏地暗，脑子越发不灵光了。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;新年计划：读完7本散书，读完1本专业书籍，读完2本标准。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;ems
       
     
     </summary>
