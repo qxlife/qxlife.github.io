@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>几种材料的物理性能</title>
-      <link href="/class/the-physical-properties-of-several-materials/"/>
-      <url>/class/the-physical-properties-of-several-materials/</url>
-      
-        <content type="html"><![CDATA[<p>持续更新</p><table><thead><tr><th align="center">序号</th><th align="center">材料名称</th><th align="center">弹性模量<br>(GPa)</th><th align="center">泊松比</th><th align="center">热导率<br>(W/(m•k))</th><th align="center">热变形温度<br>(℃)</th><th align="center">热膨胀系数</th><th align="center">相对介电常数</th></tr></thead><tbody><tr><td align="center">1</td><td align="center"><strong>硅钢</strong></td><td align="center"><strong>200</strong></td><td align="center"><strong>0.25~0.27</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">2</td><td align="center"><strong>环氧树脂</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">3</td><td align="center"><strong>环氧板</strong></td><td align="center"><strong>24</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"><strong>≤5.5/1MHz</strong></td></tr><tr><td align="center">4</td><td align="center"><strong>SMC</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"><strong>≥240℃</strong></td><td align="center"></td><td align="center"><strong>≤4.5/1MHz</strong></td></tr><tr><td align="center">5</td><td align="center"><strong>PET</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"><strong>70℃</strong></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">6</td><td align="center"><strong>大理石</strong></td><td align="center"><strong>55</strong></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><p>参考资料：</p><ol><li>合金钢手册，P162</li><li>GB/T 1303.4-2009 环氧树脂硬质层压板</li><li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD9093&filename=SLKJ199106004&v=Zod9OqcNbSCOLj%25mmd2FTzrc0iGXgU8Kqa50HCsrL0Q%25mmd2BU6Bc%25mmd2FOSicB9gwZKp1trJkKw9b">关于SMC、DMC中的填料及其作用</a></li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> blog，材料 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>今日纪念</title>
       <link href="/blog/chun-hua-qiu-yue/"/>
       <url>/blog/chun-hua-qiu-yue/</url>
