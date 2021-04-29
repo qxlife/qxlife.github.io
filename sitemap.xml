@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/footprint/index.html</loc>
+    
+    <lastmod>2021-04-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/mate/index.html</loc>
+    
+    <lastmod>2021-04-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/a-letter-to-my-son/</loc>
+    
+    <lastmod>2021-04-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/class/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
@@ -102,7 +123,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2021-04-26</lastmod>
+    <lastmod>2021-04-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,21 +131,21 @@
   
   <url>
     <loc>http://yoursite.com/tags/blog/</loc>
-    <lastmod>2021-04-26</lastmod>
+    <lastmod>2021-04-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/%E7%94%B5%E5%BD%B1/</loc>
-    <lastmod>2021-04-26</lastmod>
+    <lastmod>2021-04-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/trip/</loc>
-    <lastmod>2021-04-26</lastmod>
+    <lastmod>2021-04-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
