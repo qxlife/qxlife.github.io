@@ -2,6 +2,7 @@ var myChart = echarts.init(document.getElementById('myMap'));
 
 var data = [
     {name: '盐城', value: ['', '']},
+	{name: '通辽', value: ['', '']},
     {name: '青岛', value: ['', '']},
     {name: '金昌', value: ['', '']},
     {name: '日照', value: ['', '']},
@@ -38,6 +39,7 @@ var data = [
 ];
 var geoCoordMap = {
     '海门':[121.15,31.89],
+	'通辽': [122.260363263, 43.633756073],
     '鄂尔多斯':[109.781327,39.608266],
     '招远':[120.38,37.35],
     '舟山':[122.207216,29.985295],
