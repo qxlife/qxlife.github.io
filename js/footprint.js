@@ -246,41 +246,41 @@ var convertData = function (data) {
 
 option = {
     // backgroundColor: '#404a59',
-    title: {
+    title: { 
     },
     tooltip: {
         trigger: 'item',
-        padding: 10,
-        backgroundColor: '#222',
-        borderColor: '#777',
+        padding: 10,  //10
+        backgroundColor: '#222',  //222
+        borderColor: '#777',  //777
         borderWidth: 1,
         formatter: function (params) {
             name = params.name
-            time = params.value[2]
-            describe = params.value[3]
-            return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
+            time = params.value[2]  //2
+            describe = params.value[3]  //3
+            return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'  //return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
                 + name
-                + '</div>'
-                + time
-                + '<br>'
-                + describe;
+                //+ '</div>'
+                //+ time
+                //+ '<br>'
+                //+ describe;
         }
     },
     geo: {
         map: 'china',
         label: {
             emphasis: {
-                show: false
+                show: false //false   鼠标悬停后是否显示省份
             }
         },
-        roam: false,
+        roam: false, 
         itemStyle: {
             normal: {
                 areaColor: '#e6e6e6',  //e6e6e6
                 borderColor: '#111'  //111
             },
             emphasis: {
-                areaColor: '#cccccc'
+                areaColor: '#cccccc'  //ccccc
             }
         }
     },
@@ -290,7 +290,7 @@ option = {
             type: 'effectScatter',
             coordinateSystem: 'geo',
             data: convertData(data),
-            showEffectOn: 'render',
+            showEffectOn: 'hover',  //页面显示时是否有涟漪效果‘render’
             rippleEffect: {
                 brushType: 'stroke'
             },
@@ -299,14 +299,14 @@ option = {
                 normal: {
                     formatter: '{b}',
                     position: 'right',
-                    show: true
+                    show: false  //地点名称是否显示 true
                 }
             },
             itemStyle: {
                 normal: {
-                    color: '#4d4d4d', // 4d4d4d
-                    shadowBlur: 20,  //10
-                    shadowColor: '#333' //
+                    color: '#f0f0f0', // 4d4d4d 地点（圆点）显示颜色
+                    shadowBlur: 5,  //10
+                    shadowColor: '#00000e' //  333
                 }
             },
             zlevel: 1  //1
