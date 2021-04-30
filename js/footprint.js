@@ -322,3 +322,4 @@ option = {
 };
 
 myChart.setOption(option);
+
