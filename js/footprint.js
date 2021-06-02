@@ -54,7 +54,7 @@ var data = [
 	
 
 //华南
-	{name: '佛山', value: ['', '']},    
+	//{name: '佛山', value: ['', '']},    
     {name: '广州', value: ['', '']},     
 	
 ];
