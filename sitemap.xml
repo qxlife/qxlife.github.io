@@ -4,7 +4,14 @@
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-06-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/desk/index.html</loc>
+    
+    <lastmod>2021-05-13</lastmod>
     
   </url>
   
@@ -24,13 +31,6 @@
   
   <url>
     <loc>http://yoursite.com/class/index.html</loc>
-    
-    <lastmod>2021-04-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/desk/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
@@ -116,7 +116,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -124,21 +124,21 @@
   
   <url>
     <loc>http://yoursite.com/tags/blog/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/%E7%94%B5%E5%BD%B1/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/trip/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

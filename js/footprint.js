@@ -1,43 +1,64 @@
 var myChart = echarts.init(document.getElementById('myMap'));
 
 var data = [
-    {name: '盐城', value: ['', '']},
+//东三省，内蒙
+	{name: '哈尔滨', value: ['', '']},
+	{name: '沈阳', value: ['', '']},
+	{name: '丹东', value: ['', '']},	
+	{name: '长春', value: ['', '']},
+	{name: '吉林', value: ['', '']},
 	{name: '通辽', value: ['', '']},
-    {name: '青岛', value: ['', '']},
-    {name: '金昌', value: ['', '']},
-    {name: '日照', value: ['', '']},
-	{name: '上海', value: ['', '']},
-    {name: '威海', value: ['', '']},
-    {name: '丹东', value: ['', '']},
-    {name: '烟台', value: ['', '']},
-    {name: '蓬莱', value: ['', '']},
-    {name: '广州', value: ['', '']},
-    {name: '昆明', value: ['', '']},
-    {name: '佛山', value: ['', '']},
-    {name: '沈阳', value: ['', '']},
-    {name: '长春', value: ['', '']},
-    {name: '吉林', value: ['', '']},
-    {name: '成都', value: ['', '']},
-    {name: '镇江', value: ['', '']},
+	
+//西北
 	{name: '西安', value: ['', '']},
-    {name: '绍兴', value: ['', '']},
-    {name: '南京', value: ['', '']},
-    {name: '北京', value: ['', '']},
-    {name: '徐州', value: ['', '']},
-    {name: '杭州', value: ['', '']},
-    {name: '淄博', value: ['', '']},
-    {name: '济南', value: ['', '']},
-    {name: '温州', value: ['', '']},
-    {name: '兰州', value: ['', '']},
-    {name: '天津', value: ['', '']},
-    {name: '泰安', value: ['', '']},
-    {name: '郑州', value: ['', '']},
-    {name: '哈尔滨', value: ['', '']},
+	{name: '兰州', value: ['', '']},
+	{name: '金昌', value: ['', '']},
+	
+//西南
+	{name: '昆明', value: ['', '']},
+	{name: '成都', value: ['', '']},
+	
+//华东
+	{name: '上海', value: ['', '']},
+	{name: '南京', value: ['', '']},
+	{name: '徐州', value: ['', '']},
+	{name: '镇江', value: ['', '']},
+	{name: '盐城', value: ['', '']},
+	
+	
+	{name: '济南', value: ['', '']},
+	{name: '青岛', value: ['', '']},
+	{name: '日照', value: ['', '']},	
+	{name: '威海', value: ['', '']},
+	{name: '烟台', value: ['', '']},
+    //{name: '蓬莱', value: ['', '']},    
+    {name: '淄博', value: ['', '']},    
+    
+	{name: '泰安', value: ['', '']},    
+    
     {name: '德州', value: ['', '']},
-    {name: '衢州', value: ['', '']},
+    
     {name: '合肥', value: ['', '']},
+	
+	{name: '杭州', value: ['', '']},
+	{name: '衢州', value: ['', '']},
+	{name: '温州', value: ['', '']},
+	{name: '绍兴', value: ['', '']},
+
+//华中
+	{name: '郑州', value: ['', '']},
 	{name: '武汉', value: ['', '']},
 	{name: '襄阳', value: ['', '']},
+
+//华北
+	{name: '北京', value: ['', '']},
+	{name: '天津', value: ['', '']},
+	
+
+//华南
+	{name: '佛山', value: ['', '']},    
+    {name: '广州', value: ['', '']},     
+	
 ];
 var geoCoordMap = {
 	//lbs坐标
@@ -261,14 +282,15 @@ option = {
     tooltip: {
         trigger: 'item',
         padding: 10,  //10
-        backgroundColor: '#222',  //222
-        borderColor: '#777',  //777
-        borderWidth: 1,
+        backgroundColor: '#eee',  //222 提示框的背景颜色
+        borderColor: '#aaa',  //777 提示框的边框颜色
+        borderWidth: 1, //1 提示框的边框宽度
         formatter: function (params) {
             name = params.name
             time = params.value[2]  //2
             describe = params.value[3]  //3
             return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'  //return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
+			//border-bottom提示框下方的行数
                 + name
                 //+ '</div>'
                 //+ time
@@ -283,7 +305,7 @@ option = {
                 show: false //false   鼠标悬停后是否显示省份
             }
         },
-        roam: false, 
+        roam: false,  //false   ??
         itemStyle: {
             normal: {
                 areaColor: '#e6e6e6',  //e6e6e6
@@ -297,12 +319,16 @@ option = {
     series : [
         {
             name: '足迹',
-            type: 'effectScatter',
+            type: 'effectScatter',  //type: 'effectScatter' 特效散点图(水波纹图)  type:'scatter'//散点（气泡）图
             coordinateSystem: 'geo',
             data: convertData(data),
+			//下面为试调点大小
+			//symbolSize: function (val) {
+            //    return val[2] / 100;
+            //},
             showEffectOn: 'hover',  //页面显示时是否有涟漪效果‘render’
             rippleEffect: {
-                brushType: 'stroke'
+                brushType: 'stroke'  // 波纹绘制方式 stroke, fill
             },
             hoverAnimation: true,
             label: {
@@ -315,7 +341,7 @@ option = {
             itemStyle: {
                 normal: {
                     color: '#f0f0f0', // 4d4d4d 地点（圆点）显示颜色
-                    shadowBlur: 5,  //10
+                    shadowBlur: 10,  //10
                     shadowColor: '#00000e' //  333
                 }
             },
@@ -325,4 +351,3 @@ option = {
 };
 
 myChart.setOption(option);
-
