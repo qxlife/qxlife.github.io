@@ -29,7 +29,7 @@ var data = [
 	{name: '济南', value: ['', '']},
 	//{name: '青岛', value: ['', '']},
 	//{name: '日照', value: ['', '']},	
-	//{name: '威海', value: ['', '']},
+	{name: '威海', value: ['', '']},
 	//{name: '烟台', value: ['', '']},
     //{name: '蓬莱', value: ['', '']},    
     //{name: '淄博', value: ['', '']},     
