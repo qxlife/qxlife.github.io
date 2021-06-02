@@ -6,8 +6,8 @@ var data = [
 	{name: '沈阳', value: ['', '']},
 	{name: '丹东', value: ['', '']},	
 	{name: '长春', value: ['', '']},
-	{name: '吉林', value: ['', '']},
-	{name: '通辽', value: ['', '']},
+	//{name: '吉林', value: ['', '']},
+	//{name: '通辽', value: ['', '']},
 	
 //西北
 	{name: '西安', value: ['', '']},
@@ -22,28 +22,26 @@ var data = [
 	{name: '上海', value: ['', '']},
 	{name: '南京', value: ['', '']},
 	{name: '徐州', value: ['', '']},
-	{name: '镇江', value: ['', '']},
-	{name: '盐城', value: ['', '']},
+	//{name: '镇江', value: ['', '']},
+	//{name: '盐城', value: ['', '']},
 	
 	
 	{name: '济南', value: ['', '']},
-	{name: '青岛', value: ['', '']},
-	{name: '日照', value: ['', '']},	
-	{name: '威海', value: ['', '']},
-	{name: '烟台', value: ['', '']},
+	//{name: '青岛', value: ['', '']},
+	//{name: '日照', value: ['', '']},	
+	//{name: '威海', value: ['', '']},
+	//{name: '烟台', value: ['', '']},
     //{name: '蓬莱', value: ['', '']},    
-    {name: '淄博', value: ['', '']},    
-    
-	{name: '泰安', value: ['', '']},    
-    
-    {name: '德州', value: ['', '']},
+    //{name: '淄博', value: ['', '']},     
+	//{name: '泰安', value: ['', '']},     
+    //{name: '德州', value: ['', '']},
     
     {name: '合肥', value: ['', '']},
 	
 	{name: '杭州', value: ['', '']},
 	{name: '衢州', value: ['', '']},
 	{name: '温州', value: ['', '']},
-	{name: '绍兴', value: ['', '']},
+	//{name: '绍兴', value: ['', '']},
 
 //华中
 	{name: '郑州', value: ['', '']},
