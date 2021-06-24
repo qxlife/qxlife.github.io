@@ -291,7 +291,7 @@ option = {
 			//return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
 			//border-bottom提示框下方的行数
                 + name
-                //+ '</div>'
+				//+ '</div>'
                 //+ time
                 //+ '<br>'
                 //+ describe;
