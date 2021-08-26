@@ -257,6 +257,7 @@ blockquote {
 blockquote cite::before {
   content: '-';
   padding: 0 5px;
+  word-break: break-all;
 }
 dt {
   font-weight: bold;
